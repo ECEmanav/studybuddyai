@@ -1,0 +1,7 @@
+{
+  "name": "StudyBuddy - International Student Mentor",
+  "description": "A supportive mentor for international students, providing dual perspectives: official government facts and street-smart community hacks for navigating life in a new country.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
