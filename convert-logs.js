@@ -27,7 +27,6 @@ const rows = lines.map((l) => {
   };
 });
 
-// Columns for Excel
 const header = ["timestamp", "userText", "assistantText", "sources"];
 
 const csvLines = [
@@ -44,5 +43,4 @@ const csvLines = [
 ];
 
 fs.writeFileSync(OUT_FILE, csvLines.join("\n"), "utf-8");
-
 console.log("✅ Wrote CSV to:", OUT_FILE);
