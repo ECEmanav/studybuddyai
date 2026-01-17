@@ -1,0 +1,15 @@
+
+{
+  "name": "studybuddy-backend",
+  "version": "1.0.0",
+  "description": "Logging backend for StudyBuddy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "convert": "node convert-logs.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
